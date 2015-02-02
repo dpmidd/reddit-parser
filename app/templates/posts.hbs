@@ -1,0 +1,11 @@
+<link href='http://fonts.googleapis.com/css?family=Oswald:600,700,600italic' rel='stylesheet' type='text/css'>
+
+{{#each post in data.children}}
+<p class="posttitle">
+  {{post.data.title}}
+</p>
+{{log post}}
+{{/each}}
+
+
+{{outlet}}

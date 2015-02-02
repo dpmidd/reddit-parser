@@ -1,3 +1,12 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h2 class="pagetitle">Click on the orange links to see the titles of threads in my favorite subreddits!</h2>
+
+<section class="links">
+  {{#link-to 'posts' 'javascript'}}javascript{{/link-to}} |
+  {{#link-to 'posts' 'programming'}}programming{{/link-to}} |
+  {{#link-to 'posts' 'emberjs'}}emberjs{{/link-to}} |
+  {{#link-to 'posts' 'hearthstone'}}hearthstone{{/link-to}} |
+  {{#link-to 'posts' 'fitness'}}fitness{{/link-to}} |
+  {{#link-to 'posts' 'listentothis'}}listentothis{{/link-to}}
+</section>
 
 {{outlet}}
